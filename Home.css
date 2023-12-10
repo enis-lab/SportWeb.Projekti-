@@ -58,3 +58,27 @@ p.uppercase {
     text-transform: uppercase;
     margin-top: -10px;
 }
+/* Stili i menysë */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333; /* Ngjyra e sfondit të menysë */
+}
+
+.menu li {
+    margin: 0 10px; /* Mbledhje në margin për secilin element të menysë */
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--link-color); /* Ngjyra e tekstit të linkut */
+    font-size: 18px; /* Madhësia e tekstit të linkut */
+    transition: color 0.3s ease; /* Animacion për ndryshimin e ngjyrës në hover */
+}
+
+.menu a:hover {
+    color: var(--link-hover-color); /* Ngjyra e tekstit të linkut në hover */
+}
