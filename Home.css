@@ -82,3 +82,34 @@ p.uppercase {
 .menu a:hover {
     color: var(--link-hover-color); /* Ngjyra e tekstit të linkut në hover */
 }
+
+
+/* Stili i konteinerit të imazheve */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    background-color: var(--background-color); /* Ngjyra e sfondit të konteinerit të imazheve */
+    padding: 10px; /* Paketimi i brendshëm */
+}
+
+/* Stili i imazhit të madh */
+.large-photo {
+    flex-basis: 48%; /* Gjerësia e elementit të imazhit në raport me container-in */
+    text-align: center;
+    margin-bottom: 20px; /* Mbledhje në fund për të shmangur ndërlikime me elementët e tjerë */
+    background-color: var(--background-color); /* Ngjyra e sfondit të elementit të madh të imazhit */
+    padding: 10px; /* Paketimi i brendshëm */
+}
+
+/* Stili i imazheve të tjera */
+.other-photo {
+    width: 100%;
+}
+
+/* Stili i tekstit për imazhet e tjera */
+.photo-text {
+    color: var(--text-color); /* Ngjyra e tekstit */
+    font-size: 16px; /* Madhësia e tekstit */
+}
