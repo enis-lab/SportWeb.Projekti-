@@ -1,0 +1,60 @@
+/* Definimi i ngjyrave kryesore në faqe në variabla CSS */
+:root {
+    --background-color: #3498db;
+    --text-color: #fff;
+    --main-font: Arial, sans-serif;
+    --heading-color: #00fffa;
+    --subheading-color: #17af17;
+    --link-color: white;
+    --link-hover-color: red;
+    --link-hover-color: var(--heading-color);
+}
+
+/* Stili i përgjithshëm i trupit të dokumentit */
+body {
+    font-family: var(--main-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stili i konteinerit kryesor */
+.container {
+    background-color: rgb(8, 10, 10);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Stili i logot */
+.logo {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Stili i përmbajtjes kryesore */
+.content {
+    text-align: center;
+}
+
+/* Stili i titullit kryesor */
+h1 {
+    color: var(--heading-color);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Stili i nën-titullit */
+.subtitle {
+    margin-top: 10px;
+}
+
+/* Stili i paragrafit me tekst të madh */
+p.uppercase {
+    color: var(--subheading-color);
+    text-transform: uppercase;
+    margin-top: -10px;
+}
