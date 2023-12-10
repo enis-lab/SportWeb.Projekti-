@@ -91,3 +91,77 @@ p.uppercase {
     background-color: #fff; /* Blloku i bardhë */
     padding: 10px;
 }
+
+
+background-color: #fff; /* Blloku i bardhë */
+padding: 10px;
+}
+/* Stili për artikullin */
+/* Stili për artikullin */
+.article {
+margin-bottom: 20px;
+text-align: left;
+border-bottom: 1px solid #ccc; /* Vija horizontale midis artikujve */
+}
+
+/* Stili për titullin e artikullit */
+.article-title a {
+color: #004080; /* Ngjyra e titullit të artikullit */
+text-decoration: none;
+display: inline-block;
+padding: 5px 0;
+font-size: 20px; /* Madhësia e titullit të artikullit */
+}
+
+/* Rrit madhësinë e tekstit për pjesën e titullit */
+.article-title a.increased {
+font-size: 50px; /* Rriteni madhësinë e tekstit për 3 px */
+color: #0000FF; /* Ndryshoni ngjyrën e tekstit për pjesën e titullit në blu (kalter) */
+}
+
+.article-excerpt {
+margin-top: 10px;
+font-size: 16px;
+line-height: 1.5;
+color: #000000; /* Mbani ngjyrën e tekstit për pjesën e tekstit në të zezë (e zezë) */
+}
+
+/* Rrit madhësinë e tekstit për pjesën e tekstit */
+.article-excerpt.increased {
+font-size: 19px; /* Rriteni madhësinë e tekstit për 3 px */
+}
+
+/* Shtoni këtë stil për të rritur tekstin për 3 cm */
+.article-excerpt.increased {
+font-size: 35px; /* Rrit madhësinë e tekstit për 3 cm */
+}
+
+.article-author-img img {
+width: 650px; /* Ndryshoni vlerën e madhësisë sipas preferencave tuaja */
+height: 400px; /* Ndryshoni vlerën e madhësisë sipas preferencave tuaja */
+border-radius: 50%;
+margin-right: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+/* Stil për kolonat e revistës në modele të vogël ekrani */
+.magazine-column {
+    flex: 1 0 100%;
+    margin-right: 0;
+}
+}
+
+/* Stili për footer-in */
+footer {
+background-color: #333; /* Ngjyra e sfondit të footer-it */
+color: white; /* Ngjyra e tekstit në footer */
+padding: 10px;
+text-align: center;
+}
+
+/* Stili për linkun në footer */
+footer a {
+color: white;
+text-decoration: underline;
+}
