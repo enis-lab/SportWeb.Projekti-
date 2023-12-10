@@ -113,3 +113,97 @@ p.uppercase {
     color: var(--text-color); /* Ngjyra e tekstit */
     font-size: 16px; /* Madhësia e tekstit */
 }
+
+/* Stili i titullit kryesor */
+h1 {
+    color: var(--heading-color); /* Ngjyra e titullit kryesor */
+}
+
+/* Stili i artikullit të lajmit */
+.news-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Stili i artikullit të lajmit */
+.news-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Stili i imazhit të lajmit */
+.news-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Stili i titullit të lajmit */
+.news-item h2 {
+    color: var(--subheading-color); /* Ngjyra e titullit të lajmit */
+}
+
+/* Stili i tekstit të lajmit */
+.news-item p {
+    color: var(--text-color); /* Ngjyra e tekstit të lajmit */
+}
+
+/* Stili i trupit të dokumentit */
+body {
+    font-family: Arial, sans-serif; /* Familja e fontit për trupin e dokumentit */
+    margin: 0;
+    padding: 0;
+}
+
+/* Stili i kokes së faqes */
+header {
+    background-color: #333; /* Ngjyra e sfondit të kokes */
+    color: white; /* Ngjyra e tekstit në koke */
+    padding: 10px;
+}
+
+/* Stili i titullit h1 në koke */
+header h1 {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Stili i menysë */
+nav ul {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Stili i elementeve të menysë */
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Stili i linjave të linkut të menysë */
+nav ul li a {
+    color: white; /* Ngjyra e tekstit të linkut */
+    text-decoration: none;
+}
+
+/* Stili i trupit të dokumentit */
+main {
+    padding: 20px;
+}
+
+/* Stili i footer-it */
+footer {
+    background-color: #333; /* Ngjyra e sfondit të footer-it */
+    color: white; /* Ngjyra e tekstit në footer */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Stili i linkut në footer */
+footer a {
+    color: white;
+    text-decoration: underline;
+}
