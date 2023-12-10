@@ -207,3 +207,18 @@ footer a {
     color: white;
     text-decoration: underline;
 }
+
+
+/* Stili për konteinerin e videove */
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Stili për tekstin e videove */
+.video-text {
+    max-width: 40%; /* Gjerësia maksimale e tekstit */
+    padding: 20px; /* Padding-i i tekstit */
+    box-sizing: border-box; /* Mbro gjerësinë e tekstit nga padding-i */
+}
